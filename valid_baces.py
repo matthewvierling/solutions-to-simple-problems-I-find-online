@@ -21,7 +21,7 @@
 #validBraces( "[(])" ) => returns false 
 #validBraces( "([{}])" ) => returns true 
 
-def validBraces(string):
+def valid_braces(string):
 	stack = []
 	for char in string:
 		if char == '(' or char == '[' or char == '{':
